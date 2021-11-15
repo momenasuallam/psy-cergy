@@ -18,7 +18,7 @@
   --liyellow: #fce76c;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap");
 
 /* Main stuff */
 body {
@@ -26,7 +26,7 @@ body {
   padding: 0px;
   box-sizing: border-box;
   overflow-x: hidden;
-  font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 a {
   text-decoration: none;
@@ -37,7 +37,10 @@ a {
 *::after {
   box-sizing: border-box;
 }
-
+ul {
+  margin: 0px;
+  padding: 0px;
+}
 
 button:focus {
   outline: 0px dotted !important;
