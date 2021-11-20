@@ -101,6 +101,14 @@ button:focus {
   position: absolute;
   right: 0px;
 }
+.pnmu2 .col2dflex1{
+  width: 55%;
+  z-index: auto;
+  padding: 2% 4% 2% 8%
+}
+.pnmu2 .col1dflex1{
+  width: 45%;
+}
 .col2dflex1 h2 {
   font-size: 40px;
 }
@@ -224,6 +232,11 @@ button:focus {
   width: 100%;
 }
 @media (min-width: 1600px) {
+  .pnmu2 .col2dflex1{
+  width: 55%;
+  z-index: auto;
+  padding: 2% 4% 2% 12%
+}
   .catherinrsec3 p {
     font-size: 20px;
   }
@@ -336,12 +349,12 @@ button:focus {
     flex-direction: column;
   }
   .col1dflex1 {
-    width: 100%;
+    width: 100% !important;
   }
   .col2dflex1 {
     background-color: #ffffff;
     padding: 2% 4%;
-    width: 100%;
+    width: 100% !important;
     position: absolute;
     right: 0px;
     top: 40%;
