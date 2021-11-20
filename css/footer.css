@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-.footer-section {
+/* .footer-section {
   position: absolute;
     width: 100%;
     bottom: 0;
-}
+} */
 .footer-section .footerbar{
 height: 50px;
 background-color: #10AAA4;

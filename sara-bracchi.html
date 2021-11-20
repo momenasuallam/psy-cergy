@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PSY Cergy</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+      integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY="
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/app.css" />
+
+    <style>
+      .headerbgimg {
+        top: -11%;
+      }
+
+      .homesection2 {
+        position: relative;
+        margin: 25rem 0;
+      }
+
+      .col2dflex1 {
+        width: 56%;
+        position: absolute;
+        left: 0px;
+        z-index: 9;
+        padding: 2% 4% 2% 8%;
+      }
+
+      .col1dflex1 {
+        width: 55%;
+        position: absolute;
+        right: 0;
+      }
+
+      @media (max-width: 1600px) {
+        .headerbgimg {
+          top: -9%;
+        }
+
+        .homesection2 {
+          margin: 19rem 0;
+        }
+      }
+
+      @media (min-width: 1600px) {
+        .homesection2 {
+          margin: 24rem 0 20rem;
+        }
+      }
+
+      @media (max-width: 1400px) {
+        .homesection2 {
+          margin: 15rem 0 13.5rem;
+        }
+      }
+
+      @media (max-width: 900px) {
+        .headerbgimg {
+          top: -3%;
+        }
+
+        .navbar {
+          height: auto;
+          padding: 16px 20px;
+        }
+
+        .homesection2 {
+          margin: 3rem 0 18rem;
+        }
+
+        .col1dflex1 {
+          width: 100%;
+          position: relative;
+          right: 0;
+        }
+
+        .col2dflex1 {
+          background-color: #ffffff;
+          padding: 2% 4%;
+          width: 100%;
+          position: absolute;
+          right: 0px;
+          top: 60%;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .nav-menu {
+          background: #10aaa4;
+        }
+
+        .bgmenuopen {
+          top: 185px;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .headerbgimg {
+          top: 0%;
+        }
+
+        .navbar {
+          padding: 12px 20px;
+        }
+
+        .col2dflex1 {
+          position: relative;
+        }
+
+        .homesection2 {
+          margin: 3rem 0 6rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img class="headerbgimg disnonmbl" src="./img/pages-top.svg" />
+        <img class="headerbgimg disnondesk" src="./img/pages-top.svg" />
+        <nav class="navbar header">
+          <div class="container-fluid">
+            <div class="logo">
+              <a href="index.html"><img src="./img/logo.svg" alt="LOGO" /></a>
+            </div>
+            <div class="push-left">
+              <button
+                id="menu-toggler"
+                data-class="menu-active"
+                class="hamburger"
+              >
+                <span class="hamburger-line hamburger-line-top"></span>
+                <span class="hamburger-line hamburger-line-middle"></span>
+                <span class="hamburger-line hamburger-line-bottom"></span>
+              </button>
+
+              <!--  Menu compatible with wp_nav_menu  -->
+              <ul id="primary-menu" class="menu nav-menu">
+                <li class="menu-item current-menu-item">
+                  <a class="nav__link" href="sara-bracchi.html">SARA BRACCHI</a>
+                </li>
+                <li class="menu-item current-menu-item">
+                  <a class="nav__link" href="guzman-verlry.html"
+                    >CLÉMENCE GUZMAN VERLEY</a
+                  >
+                </li>
+                <li class="menu-item current-menu-item">
+                  <a class="nav__link" href="catherinr-yvet.html"
+                    >CATHERINE YVET</a
+                  >
+                </li>
+                <img class="bgmenuopen disnondesk" src="./img/pages-top.svg" />
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="homesection1">
+      <div class="container-fluid">
+        <div class="heading1">
+          <h2>Sara Bracchi</h2>
+          <h3>Psychologue, Psychanalyste</h3>
+        </div>
+      </div>
+    </section>
+    <section class="homesection2 p23sec2">
+      <div class="dflex1">
+        <div class="col1dflex1">
+          <img src="./img/Intersection8.png" />
+        </div>
+        <div class="col2dflex1">
+          <p>
+            Je reçois toute personne qui souhaite s’interroger sur elle-même:
+            c’est-à-dire les enfants, les adolescents, les parents et les
+            adultes qui rencontrent des difficultés dans leur vie relationnelle,
+            sociale, professionnelle ou affective.
+          </p>
+          <p>
+            Toute forme de souffrance psychique peut faire l’objet d’une
+            consultation chez un psychologue. Je reçois sur rendez-vous, en
+            première consultation d’abord, pour faire le point sur votre
+            situation, avant de vous proposer un cadre de travail individualisé.
+            Il peut s’agir d’une consultation ponctuelle, de quelques séances
+            rapprochées pour traiter un problème précis, ou d’une thérapie à
+            fréquence régulière, bi-mensuelle, hebdomadaire voire
+            bi-hebdomadaire.
+          </p>
+          <p>
+            Diplômée d’un Master professionnel de psychologie clinique et
+            psychopathologie psychanalytique de l'Université Paris Ouest, je
+            travaille par ailleurs en institution depuis plusieurs années : au
+            Centre Hospitalier Théophile Roussel pendant cinq ans, au Centre de
+            psychanalyse de l’ASM13 depuis 2019 et à la Maison Hospitalière de
+            Cergy. J’ai ainsi développé une pratique diversifiée qui me permet
+            aujourd’hui de proposer une écoute experte.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="page2sec2">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-4">
+            <div>
+              <h2>Enfants & adolescent</h2>
+              <p>
+                En ce qui concerne les enfants et les adolescents, je vous
+                conseille de consulter sans attendre si l’attitude ou le
+                comportement de votre enfant a changé récemment. Les difficultés
+                des enfants et des adolescents s’expriment souvent à travers les
+                champs de leur vie quotidienne comme la nourriture, le sommeil,
+                la vie sociale ou la scolarité. Sans être systématiquement objet
+                d’inquiétude, quelques consultations en première intention
+                permettront de déterminer rapidement s’il existe des difficultés
+                et si elles relèvent du champ d’action du psychologue. N’hésitez
+                pas à demander également conseil à votre médecin de famille ou à
+                votre pédiatre.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <h2>Famille, parentalité & périnatalité</h2>
+              <p>
+                Je reçois des parents qui s'interrogent sur leur manière d’être
+                avec leurs enfants ou leurs adolescents; et des familles qui
+                traversent des conflits qu’elles ne parviennent pas à régler
+                sans un professionnel qui fasse tiers de manière neutre et
+                bienveillante. Les périodes prénatale et postnatale sont par
+                ailleurs des moments de grands bouleversements. Il peut donc
+                être important d’être soutenus, mères comme pères, pendant la
+                grossesse et pendant les premiers mois de vie de votre enfant. À
+                chaque arrivée d'un nouvel enfant dans une famille, il s'agit de
+                réajuster les relations et de trouver de nouveaux aménagements.
+                Je propose dans ces cas-là des consultations mère-enfant et
+                père-mère-enfant.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div>
+              <h2>Psychothérapies</h2>
+              <p>
+                Enfin, je propose des psychothérapies psychanalytiques si vous
+                souhaitez vous interroger de manière globale sur votre histoire,
+                mieux comprendre votre personnalité et faire évoluer des
+                fonctionnements ancrés depuis longtemps. Il s’agit d’une
+                réflexion à plus long terme, basée sur la libre association
+                inconsciente.
+              </p>
+              <p>
+                Dans tous les cas, consulter un psychologue est un acte
+                librement consenti. Le travail psychologique ne peut se faire
+                qu’à partir de votre propre désir de réflexion et de changement.
+                Parfois surprenant et inattendu, c’est un voyage introspectif
+                passionnant et émancipateur.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="homesection4 sarasec4">
+      <div class="containerfluid">
+        <h2 class="txtcenter">Mes contacts</h2>
+        <div class="hs4maxwidth">
+          <div class="row">
+            <div class="col-md-6">
+              <div>
+                <p>
+                  <strong>Le cabinet est situé au :</strong><br />
+                  7 Boulevard de l'évasion <br />
+                  95800 Cergy-le-Haut
+                </p>
+                <p>
+                  - RER A : Cergy-le-Haut<br />
+                  - Bus: 34, 35, 39, 40
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="calsdiv">
+                <p>
+                  <strong>Tel</strong> :
+                  <a href="tel:0749380964">07 49 38 09 64</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footerbar"></div>
+      <div class="footerbar">
+        <p>@Ma'rayvet Webdesign</p>
+      </div>
+      <div class="footerbar"></div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"
+    ></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+  </body>
+</html>

@@ -16,6 +16,7 @@
   left: 0; */
   width: 100%;
   z-index: 9;
+  height: 75px;
 }
 .headerbgimg {
   position: absolute;
@@ -117,11 +118,17 @@
     margin-top: 18px;
     border-bottom-left-radius: 58px;
   }
-  .menu-active .nav-menu::after {
+  /* .menu-active .nav-menu::after {
     content: url(../img/mbl-menu.svg);
     position: absolute;
     bottom: -124px;
     z-index: -1;
+  } */
+  .bgmenuopen {
+    position: absolute;
+    z-index: -1;
+    top: 160px;
+    width: 100%;
   }
   .userimg {
     position: absolute;
@@ -150,7 +157,7 @@
         border-right: 0px; */
   }
   .nav-menu .menu-item a {
-    font-size: 20px;
+    font-size: 18px !important;
     padding: 10px 20px;
     text-align: start;
   }
@@ -247,5 +254,13 @@
 @media (max-width: 500px) {
   .headerbgimg {
     top: 0px;
+  }
+}
+.overflowhidden {
+  overflow: hidden;
+}
+@media (min-width: 768px) {
+  .nav-menu .menu-item a:hover {
+    border-bottom: 2px solid #fff;
   }
 }

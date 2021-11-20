@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PSY Cergy</title>
+    <link rel="shortcut icon" type="image/x-icon" href="./img/favicon.svg" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/fork-awesome@1.2.0/css/fork-awesome.min.css"
+      integrity="sha256-XoaMnoYC5TH6/+ihMEnospgm0J1PM/nioxbOUdnM8HY="
+      crossorigin="anonymous"
+    />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link
+      rel="stylesheet"
+      href="https://getbootstrap.com/docs/5.0/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="./css/navbar.css" />
+    <link rel="stylesheet" href="./css/footer.css" />
+    <link rel="stylesheet" href="./css/app.css" />
+
+    <style>
+      .headerbgimg {
+        top: -11%;
+      }
+
+      .homesection2 {
+        position: relative;
+        margin: 25rem 0;
+      }
+
+      .col2dflex1 {
+        width: 56%;
+        position: absolute;
+        left: 0px;
+        z-index: 9;
+        padding: 2% 4% 2% 8%;
+      }
+
+      .col1dflex1 {
+        width: 55%;
+        position: absolute;
+        right: 0;
+      }
+
+      @media (max-width: 1600px) {
+        .headerbgimg {
+          top: -9%;
+        }
+
+        .homesection2 {
+          margin: 19rem 0;
+        }
+      }
+
+      @media (min-width: 1600px) {
+        .homesection2 {
+          margin: 24rem 0 20rem;
+        }
+      }
+
+      @media (max-width: 1400px) {
+        .homesection2 {
+          margin: 15rem 0 13.5rem;
+        }
+      }
+
+      @media (max-width: 900px) {
+        .headerbgimg {
+          top: -3%;
+        }
+
+        .navbar {
+          height: auto;
+          padding: 16px 20px;
+        }
+
+        .homesection2 {
+          margin: 3rem 0 18rem;
+        }
+
+        .col1dflex1 {
+          width: 100%;
+          position: relative;
+          right: 0;
+        }
+
+        .col2dflex1 {
+          background-color: #ffffff;
+          padding: 2% 4%;
+          width: 100%;
+          position: absolute;
+          right: 0px;
+          top: 60%;
+        }
+      }
+
+      @media (max-width: 768px) {
+        .nav-menu {
+          background: #10aaa4;
+        }
+
+        .bgmenuopen {
+          top: 185px;
+        }
+      }
+
+      @media (max-width: 600px) {
+        .headerbgimg {
+          top: 0%;
+        }
+
+        .navbar {
+          padding: 12px 20px;
+        }
+
+        .col2dflex1 {
+          position: relative;
+        }
+
+        .homesection2 {
+          margin: 3rem 0 6rem;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <div>
+        <img class="headerbgimg disnonmbl" src="./img/pages-top.svg" />
+        <img class="headerbgimg disnondesk" src="./img/pages-top.svg" />
+        <nav class="navbar header">
+          <div class="container-fluid">
+            <div class="logo">
+              <a href="index.html"><img src="./img/logo.svg" alt="LOGO" /></a>
+            </div>
+            <div class="push-left">
+              <button
+                id="menu-toggler"
+                data-class="menu-active"
+                class="hamburger"
+              >
+                <span class="hamburger-line hamburger-line-top"></span>
+                <span class="hamburger-line hamburger-line-middle"></span>
+                <span class="hamburger-line hamburger-line-bottom"></span>
+              </button>
+
+              <!--  Menu compatible with wp_nav_menu  -->
+              <ul id="primary-menu" class="menu nav-menu">
+                <li class="menu-item current-menu-item">
+                  <a class="nav__link" href="sara-bracchi.html">SARA BRACCHI</a>
+                </li>
+                <li class="menu-item current-menu-item">
+                  <a class="nav__link" href="guzman-verlry.html"
+                    >CLÉMENCE GUZMAN VERLEY</a
+                  >
+                </li>
+                <li class="menu-item current-menu-item">
+                  <a class="nav__link" href="catherinr-yvet.html"
+                    >CATHERINE YVET</a
+                  >
+                </li>
+                <img class="bgmenuopen disnondesk" src="./img/pages-top.svg" />
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="homesection1">
+      <div class="container-fluid">
+        <div class="heading1">
+          <h2>Catherine Yvet</h2>
+          <h3>Psychologue, Psychanalyste</h3>
+        </div>
+      </div>
+    </section>
+
+    <section class="catherinrsec2">
+      <div class="row aligncenter">
+        <div class="col-md-8">
+          <div class="textcathd1">
+            <p>
+              Psychologue clinicienne, diplômée de l’université de Paris VIII en
+              1997, j’ai ensuite continué mon parcours de formation en
+              psychanalyse avec :
+            </p>
+            <p>- Espace analytique ;</p>
+            <p>- La STFPIF (Société de Thérapie Familiale Psychanalytique) ;</p>
+            <p>- L' Institut Psychanalytique de l'Enfant.</p>
+            <p>
+              Après avoir travaillé en hôpital, en crèche et en consultation en
+              addictologie, j’ai ouvert mon cabinet libéral en 2006. J’ai
+              également une expérience de formation auprès des assistantes
+              maternelles et une pratique du psychodrame psychanalytique
+              individuel en CMPP avec des enfants et des adolescents.
+            </p>
+            <p>
+              Depuis 2006 j’ai tissé sur Cergy un réseau de relations
+              professionnelles, en libéral et en institution.
+            </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div>
+            <img src="./img/img1.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="catherinrsec3">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-6">
+            <div>
+              <p>
+                Je reçois sur rendez-vous des enfants, des adolescents et des
+                adultes pour un travail individuel ou familial. Il est possible
+                de consulter à tout âge.
+              </p>
+              <p>
+                Avec des enfants très jeunes, le travail parental peut permettre
+                de sortir d’impasses ou de conflits. Devenir parents demande de
+                profonds remaniements ; les comportements de l’enfant sont
+                parfois énigmatiques. Parler à un professionnel permet d’avoir
+                un regard différent, d’être soutenu.
+              </p>
+              <p>
+                Votre enfant tout au long de son développement peut exprimer des
+                difficultés par le corps, un changement de comportement,
+                d’humeur, différents symptômes. Je vous reçois alors en famille
+                ou l’enfant seul selon l’âge et les problématiques.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div>
+              <p>
+                Adolescent, une écoute adaptée peut accompagner la traversée de
+                cette période de transition pleine de questionnements. Cela peut
+                vous aider à comprendre ce qui vous arrive et à faire vos choix.
+                Adulte, je vous accompagne pour vous aider à faire face et à
+                surmonter vos difficultés afin que vous puissiez trouver vos
+                solutions ou pour vous permettre de mieux vous connaître.
+              </p>
+              <p>
+                Lors des premiers entretiens nous prenons le temps de travailler
+                votre demande. Je peux vous recevoir pour un travail bref de
+                quelques séances, pour une thérapie plus longue avec des séances
+                régulières ainsi que pour une analyse.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="catherinrsec4">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="./img/img2.png" />
+        </div>
+        <div class="col-md-6">
+          <img src="./img/img3.png" />
+        </div>
+      </div>
+    </section>
+
+    <section class="homesection4 sarasec4">
+      <div class="containerfluid">
+        <h2 class="txtcenter">Mes contacts</h2>
+        <div class="hs4maxwidth">
+          <div class="row">
+            <div class="col-md-6">
+              <div>
+                <p>
+                  <strong>Le cabinet est situé au :</strong><br />
+                  7 Boulevard de l'évasion <br />
+                  95800 Cergy-le-Haut
+                </p>
+                <p>
+                  - RER A : Cergy-le-Haut<br />
+                  - Bus: 34, 35, 39, 40
+                </p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="calsdiv">
+                <div>
+                  <p>Tel : <a href="tel:0685407415">06 85 40 74 15</a></p>
+                </div>
+                <div>
+                  <p>
+                    Email :
+                    <a href="mailto:cathyvet@orange.fr">cathyvet@orange.fr</a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footerbar"></div>
+      <div class="footerbar">
+        <p>@Ma'rayvet Webdesign</p>
+      </div>
+      <div class="footerbar"></div>
+    </footer>
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"
+    ></script>
+    <script type="text/javascript" src="./js/app.js"></script>
+  </body>
+</html>
